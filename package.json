@@ -1,0 +1,24 @@
+{
+  "name": "cute-github-init",
+  "version": "0.3.3",
+  "description": "Automate uploading any dir to github with cute-github-init. No it won't overwrite.",
+  "main": "index.js",
+  "bin": {
+    "cute-github-init": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "echo 'Set env var GITHUB_ACCESS_TOKEN and automate uploading any dir to github with cute-github-init. No it won't overwrite.'"
+  },
+  "keywords": [
+    "nodejs",
+    "template",
+    "development",
+    "deployment"
+  ],
+  "author": "planetrenox",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "ignore": "^5.3.1"
+  }
+}
