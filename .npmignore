@@ -1,0 +1,17 @@
+**/.DS_Store
+**/Thumbs.db
+*.log
+node_modules/
+.env
+coverage/
+dist/
+*.test.js
+*.spec.js
+tests/
+__tests__/
+test/
+.git/
+.github/
+.gitlab/
+.idea/
+*.config.js
